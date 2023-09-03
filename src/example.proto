@@ -1,0 +1,10 @@
+// -*- Protobuf -*-
+syntax = "proto3";
+
+message ObjectList {
+    repeated Object object = 1;
+}
+
+message Object {
+     string object_id = 1;
+}
